@@ -34,7 +34,7 @@ Route::POST('delete/{id}', function ($id) {
 
 
 });
-Route::get('update/{id}/edit', function ($id) {
+/*Route::get('update/{id}/edit', function ($id) {
     $tasks = DB::table('tasks') -> where('id','=',$id)
      -> update(['options->enabled' => true]);
 
@@ -49,4 +49,4 @@ Route::pott('update/{id}/', function ($id) {
     return redirect()-> back();
 
 
-});
+});*/
